@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Perempuan"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="326dp" />
+
+    <TextView
+        android:layout_width="193dp"
+        android:layout_height="37dp"
+        android:text="Ayah Bunda silahkan mengisi  data anak di bawah ini"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.197" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="143dp"
+        android:layout_height="27dp"
+        android:text="Nama Panggilan Anak"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="199dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="232dp">
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="367dp"
+        android:layout_height="39dp"
+        android:hint="Isi dengan nama anak anda"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="232dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="109dp"
+        android:layout_height="30dp"
+        android:text="Jenis Kelamin"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="288dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Laki-laki"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="326dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="92dp"
+        android:layout_height="25dp"
+        android:text="Umur Saat ini"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="377dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="415dp">
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="363dp"
+        android:layout_height="39dp"
+        android:hint="cth : 12"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="415dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="389dp"
+        android:layout_height="45dp"
+        android:background="#FFFFFF"
+        android:text="*Umur diperlukan untuk rekomendasi waktu penggunaan handphone anak anda"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="464dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="347dp"
+        android:layout_height="50dp"
+        android:autoText="false"
+        android:background="#56C7FA"
+        android:onClick="intent"
+        android:text="DAFTAR"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="527dp" />
+    tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="546dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
